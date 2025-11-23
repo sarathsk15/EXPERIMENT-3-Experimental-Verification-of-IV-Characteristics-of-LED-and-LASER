@@ -9,20 +9,31 @@ To study the characteristics of fiber optic LED and plot the graph of forward cu
 ---
 
 ## 🧰 EQUIPMENTS REQUIRED
-- Power supply  
-- Patch chords  
-- 1-meter fiber optic cable  
-- Digital Multimeter (DMM)  
+-	Link-B Kit with power supply.
+	FCL-01 & FCL-02.
+	Patch chords.
+	20MHz Dual Channel Oscilloscope.
+	1 MHz Function Generator.
+	1 Meter Fiber Cable.
+	Jumper to Crocodile wires.
+
+
 
 ---
 
 ## 📚 THEORY
 
-- **LEDs and LASER diodes** are commonly used sources in optical communication systems for both digital and analog transmission.
-- A **linear electrical-to-optical converter** is essential for intensity modulation and high-quality analog transmission.
-- LEDs exhibit a **linear optical output** with respect to forward current within a specific operating range.
+In optical fiber communication system, electrical signal is first converted into optical signal with the help of E / O conversion device as LED. After this optical signal is transmitted through optical fiber, it is retrieved in its original electrical form with the help O / E conversion device as photo detector.
 
----
+
+Different technologies employed in chip fabrication lead to significant variation in parameters for the various emitter diodes. All the emitters distinguish themselves in offering high output power coupled into the plastic fiber. Data sheets for LEDs usually specify electrical and optical characteristics, out of which are important peak wavelength of emission, conversion efficiency (usually specified in terms of power launched in optical fiber for specified forward current), optical rise and fall ties which put the limitation on operating frequency, maximum forward current through LED and typical forward voltage across LED.
+
+
+Photodetectors usually comes in variety of forms like photoconductive, photovoltaic, transistor type output and diode type output. Here also characteristics to be taken into account are response time of the detector which puts the limitation on the operating frequency, wavelength sensitivity and responsively.
+LED’s and LASER diodes are the commonly used sources in optical communication systems, whether the system transmits digital or analog signal. It is therefore, often necessary to use linear electrical to optical converter to allow its use in intensity modulation & high quality analog transmission systems.
+LED's have a linear optical output with relation to the forward current over a certain region of operation. Numerical aperture refers to the maximum angle at the light incident on the fiber end is totally internally reflected and is transmitted properly along the Fiber. The cone formed by the rotations of this angle along the axis of the Fiber is the cone of acceptance of the Fiber. The light ray should strike the fiber end within its cone of acceptance; else it is refracted out of the fiber core.
+ 
+
 
 
 ## 🧪 PROCEDURE
